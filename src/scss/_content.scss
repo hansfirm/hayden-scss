@@ -1,0 +1,33 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+    >* {padding-left: 30px;}
+  li {
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+    -webkit-margin-before: 0;
+    padding-top: 40px;
+  }
+    p {
+      width: 55%;
+      min-width: 550px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    a {
+      color: $secondary-color;
+      text-decoration: none; // changed from text-decoration:underline
+   }
+    a:hover {
+      text-decoration: underline;
+    }
+   
+}
